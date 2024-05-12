@@ -7,10 +7,10 @@ from PIL import Image
 import streamlit as st
 
 # Путь к папке с файлами
-folder_path =  'images\\'
+#folder_path =  'images\\'
 
 # Получаем список файлов в папке
-files = os.listdir(folder_path)
+#files = os.listdir(folder_path)
 
 
 
@@ -83,9 +83,7 @@ if st.button('Показать вопросы'):
         for i in numbers:
             st.write(questions[i])
 
-            image_path = os.path.join(folder_path, f'image{i}.jpg')
-            image = Image.open(image_path)
-            st.image(image)
+            st.write(f'image{i}.jpg')
     
     ph = st.empty()
     N = 5*60
