@@ -7,7 +7,7 @@ from PIL import Image
 import streamlit as st
 
 # Путь к папке с файлами
-folder_path =  'C:\\Users\\ivanv\\Downloads\\pyyy\\images\\'
+folder_path =  'images\\'
 
 # Получаем список файлов в папке
 files = os.listdir(folder_path)
