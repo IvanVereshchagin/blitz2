@@ -83,7 +83,7 @@ if st.button('Показать вопросы'):
         for i in numbers:
             st.write(questions[i])
 
-            st.write(f'image{i}.jpg')
+            st.image(f'image{i}.jpg')
     
     ph = st.empty()
     N = 5*60
